@@ -45,7 +45,7 @@ class Student
     SQL
     binding.pry
     DB[:conn].execute(sql).map do |row|
-    
+
   end
 
   def save
