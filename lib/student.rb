@@ -45,7 +45,7 @@ class Student
     WHERE grade = "9th"
     SQL
     binding.pry
-    DB[:conn].execute(sql).map do |row|
+    # DB[:conn].execute(sql).map do |row|
 
   end
 
