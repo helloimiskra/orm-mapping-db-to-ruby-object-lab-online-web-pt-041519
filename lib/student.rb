@@ -56,7 +56,7 @@ class Student
     FROM students
     WHERE grade BETWEEN 9 AND 11;
     SQL
-
+    binding.pry
     DB[:conn].execute(sql).map do |row|
       self.new_from_db(row).name
     end
